@@ -14,7 +14,7 @@ browser = webdriver.Chrome(options=options)
 def get_page_count(keyword):
   base_url = 'https://kr.indeed.com/jobs?q='
   browser.get(f'{base_url}{keyword}')
-
+  
   soup = BeautifulSoup(browser.page_source, 'html.parser')
   pagination = soup.find('nav', role='navigation')
   

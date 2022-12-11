@@ -435,17 +435,6 @@ websockets = ["websockets (>=10.3)"]
 yapf = ["yapf", "whatthepatch (>=1.0.2,<2.0.0)"]
 
 [[package]]
-name = "request2"
-version = "0.2"
-description = "Módulo para exemplificar construção de projetos Python no curso PyTools"
-category = "main"
-optional = false
-python-versions = "*"
-
-[package.dependencies]
-requests = "*"
-
-[[package]]
 name = "requests"
 version = "2.28.1"
 description = "Python HTTP for Humans."
@@ -663,7 +652,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "flake8 
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8.0,<3.9"
-content-hash = "9867bbc6efcac0bbb73b82044b6399c1448c8a776617e01fc2bad7c826cb40dc"
+content-hash = "4a68794c4961d822a2e68dda1dcd768956d4d3853e175c1f0f1d036c94d3789e"
 
 [metadata.files]
 aiohttp = []
@@ -703,7 +692,6 @@ python-lsp-jsonrpc = []
 pytoolconfig = []
 replit = []
 replit-python-lsp-server = []
-request2 = []
 requests = []
 rope = []
 selenium = []
