@@ -57,9 +57,9 @@ def extract_indeed_jobs(keyword):
   
         job_data = {
           'link': f'https://kr.indeed.com{link}',
-          'company': compnay.string,
-          'location': location.string,
-          'position': title
+          'company': compnay.string.replace(',', ' '),
+          'location': location.string.replace(',', ' '),
+          'position': title.replace(',', ' ')
         }
         results.append(job_data)
   
